@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(245, 175, 234) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 175, 234, 1) 0%,
+    rgba(219, 245, 255, 1) 42%,
+    rgba(221, 175, 202, 1) 92%
+  ) !important;
+  font-family: "Gilroy";
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
